@@ -1,0 +1,246 @@
+/* styles.css */
+
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+/* header style */
+.gradient-header {
+    background: linear-gradient(to right, #ff007f, #8000ff); /* black gradient */
+}
+
+nav a {
+    color: white; /* Make the text white to stand out against the gradient background */
+}
+
+nav a:hover {
+    color: #ffccff; /* Optional: Change the color on hover */
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* hero section  */
+
+.gradient-section {
+    background: linear-gradient(to right, #000000, #434343); /* black gradient */
+    color: white; /* Make text white to stand out against the gradient */
+}
+
+.gradient-section h1 {
+    color: white;
+}
+
+.gradient-section p {
+    color: #d3d3d3; /* Light grey for contrast */
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #ff007f, #8000ff); /* pink to purple gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.btn-gradient {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* button gradient colors */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* reverse gradient on hover */
+}
+
+section.gradient-section {
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 25%;
+}
+/* review section */
+
+/* signup */
+
+
+.bg-gradient {
+    background: linear-gradient(135deg, #d53f8c, #993399);
+  }
+  
+  .input {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: #d1d5db;
+  }
+  
+  .button {
+    background-color: #d53f8c;
+    color: white;
+  }
+  
+  .button:hover {
+    background-color: #993399;
+  }
+  
+
+
+
+/* starting code */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.key-problems ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.key-problems li {
+    margin: 10px 0;
+}
+
+.key-metrics .metrics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.metric {
+    flex: 1 1 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.reviews .review {
+    margin: 20px 0;
+}
+
+.problem-target .tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tablink {
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 5px;
+}
+
+.tablink:hover {
+    background-color: #ddd;
+}
+
+.tablink.active {
+    background-color: #007BFF;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border-top: none;
+}
+
+.cta {
+    background-color: #007BFF;
+    color: white;
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.btn-gradient {
+    background: linear-gradient(to right, #ff5fa2, #da2d58ee); /* button gradient colors */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(to right, #c53873, #af0769ee); /* reverse gradient on hover */
+}
